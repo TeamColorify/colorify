@@ -1,3 +1,7 @@
+// Import Buttons
+@import './components/button/materialBase';
+
+// Import Background Color
 @import './components/backgroundColor/backgroundAmber',
 './components/backgroundColor/backgroundBlue',
 './components/backgroundColor/backgroundBlueGrey',
@@ -18,6 +22,7 @@
 './components/backgroundColor/backgroundTeal',
 './components/backgroundColor/backgroundYellow';
 
+// Import Text Color
 @import './components/textColor/textAmber',
 './components/textColor/textBlue',
 './components/textColor/textBlueGrey',

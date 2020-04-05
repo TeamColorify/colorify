@@ -1,0 +1,30 @@
+{
+  "name": "colorify",
+  "version": "1.0.0",
+  "description": " Colorify is a Open Source toolkit for developing with HTML, and CSS. Colorify makes your web developing life smooth by reducing the stress you put in searching for various colors and their hexcode. All colors you can think of in one place.",
+  "main": "index.js",
+  "scripts": {
+    "dev-build-css": "sass --watch src/colorify.scss dist/css/colorify.css",
+    "build": "sass src/colorify.scss dist/css/colorify.css && rollup src/colorify.js --file dist/js/colorify.js --format cjs"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamColorify/Colorify.git"
+  },
+  "keywords": [
+    "colorify",
+    "colorify.css",
+    "color",
+    "css",
+    "css",
+    "coloring",
+    "library"
+  ],
+  "author": "Colorify",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamColorify/Colorify/issues"
+  },
+  "homepage": "https://github.com/TeamColorify/Colorify#readme"
+}
