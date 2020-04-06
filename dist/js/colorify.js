@@ -3,7 +3,10 @@
 // Material Button Ripple Effect
 var materialButtons = document.getElementsByClassName('cy-mt-btn');
 Array.prototype.forEach.call(materialButtons,button=>{
+    if(button.classList.contains('disabled'));
+    else {
     button.addEventListener('click',createRipple);
+    }
 });
 function createRipple (e){
     var circle = document.createElement('div');
