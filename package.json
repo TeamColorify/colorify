@@ -1,42 +1,30 @@
 {
-  "name": "colorify",
-  "version": "1.0.0",
-  "description": " Colorify is a Open Source toolkit for developing with HTML, and CSS. Colorify makes your web developing life smooth by reducing the stress you put in searching for various colors and their hexcode. All colors you can think of in one place.",
-  "main": "index.js",
-  "scripts": {
-    "dev-build-css": "sass --watch src/colorify.scss dist/css/colorify.css",
-    "dev-build-js": "rollup src/colorify.js --file dist/js/colorify.js --format cjs -w",
-    "build-css": "sass src/colorify.scss dist/css/colorify.css",
-    "build-js": "rollup src/colorify.js --file dist/js/colorify.js --format cjs",
-    "minify-css": "sass dist/css/colorify.css dist/css/colorify.min.css --style compressed",
-    "minify-js": "minify dist/js/colorify.js > dist/js/colorify.min.js | minify --js",
-    "dev-build": "npm-run-all --parallel dev-build-css dev-build-js",
-    "build": "npm-run-all build-css build-js minify-css minify-js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TeamColorify/Colorify.git"
-  },
-  "keywords": [
-    "colorify",
-    "colorify.css",
-    "color",
-    "css",
-    "css",
-    "coloring",
-    "library"
-  ],
-  "author": "Colorify",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TeamColorify/Colorify/issues"
-  },
-  "homepage": "https://github.com/TeamColorify/Colorify#readme",
-  "devDependencies": {
-    "minify": "^5.1.1",
-    "npm-run-all": "^4.1.5",
-    "rollup": "^2.3.3",
-    "sass": "^1.26.3"
-  },
-  "dependencies": {}
+	"name": "colorify",
+	"version": "1.0.0",
+	"description": " Colorify is a Open Source toolkit for developing with HTML, and CSS. Colorify makes your web developing life smooth by reducing the stress you put in searching for various colors and their hexcode. All colors you can think of in one place.",
+	"main": "index.js",
+	"scripts": {
+		"dev-build-css": "sass --watch src/colorify.scss dist/colorify.css",
+		"build-css": "sass src/colorify.scss dist/colorify.css",
+		"minify-css": "sass dist/colorify.css dist/colorify.min.css --style compressed",
+		"build": "npm-run-all build-css minify-css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TeamColorify/Colorify.git"
+	},
+	"keywords": [ "colorify", "colorify.css", "color", "css", "css", "coloring", "library" ],
+	"author": "Colorify",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/TeamColorify/Colorify/issues"
+	},
+	"homepage": "https://github.com/TeamColorify/Colorify#readme",
+	"devDependencies": {
+		"minify": "^5.1.1",
+		"npm-run-all": "^4.1.5",
+		"rollup": "^2.3.3",
+		"sass": "^1.26.3"
+	},
+	"dependencies": {}
 }
