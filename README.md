@@ -91,6 +91,7 @@ You can add a Gradient background to any of your element by adding the name of t
 <div class="cy-bg-gd-azureLane">Hello World</div>
 Changing Direction of Gradients
 All Gradient have customisable direction. By Default, all gradients will have a to Right direction. To change the Direction of Gradient simply add gd-tl for left, gd-tb for bottom, and gd-tt for top gradient.
+
 ```html
 <div class="cy-bg-gd-jshine">Hello World</div>
 
@@ -100,6 +101,7 @@ All Gradient have customisable direction. By Default, all gradients will have a 
 
 <div class="cy-bg-gd-jshine gd-tt">Hello World</div>
 ```
+
 Gradients are amazing, aren't they? Have a Look on the list of Gradients supported by Colorify.
 
 ## Contributing to Colorify
