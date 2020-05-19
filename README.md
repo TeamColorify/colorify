@@ -15,14 +15,15 @@ Or use the CDN provided by jsDelivr to load our CSS.
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/raxraj/colorify/src/minified/colorify.min.css">
 Starter Template
 Are you starting a new project? Or, maybe just a new web page. Why not jump right into new things and skip the part of adding everything from scratch!
+
 ```html
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 		<!-- Colorify CSS -->
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/raxraj/colorify/src/minified/colorify.min.css">
 		<!--link rel="stylesheet" href="https://cdn.global.colorify.tech/src/minified/colorify.min.css"-->
