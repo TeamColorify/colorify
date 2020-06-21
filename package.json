@@ -13,7 +13,15 @@
 		"type": "git",
 		"url": "git+https://github.com/TeamColorify/Colorify.git"
 	},
-	"keywords": [ "colorify", "colorify.css", "color", "css", "css", "coloring", "library" ],
+	"keywords": [
+		"colorify",
+		"colorify.css",
+		"color",
+		"css",
+		"css",
+		"coloring",
+		"library"
+	],
 	"author": "Colorify",
 	"license": "MIT",
 	"bugs": {
