@@ -1,5 +1,5 @@
 # Colorify
-Colorify is a Open Source toolkit for developing with HTML, and CSS. Colorify makes your web developing life smooth by reducing the stress you put in searching for various colors and their hexcode. All colors you can think of in one place.
+Colorify is a Open Source toolkit for developing with HTML, and CSS. Colorify makes your web developing life smooth by reducing the stress you put in searching for various colors and their hexcode. All colors you can think of in one place.you can get probably all the colours
 
 > V1.0 is under development.
 
